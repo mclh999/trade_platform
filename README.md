@@ -29,7 +29,7 @@
 
 本阶段由王伟锋负责发布书籍模块的数据库设计，许文博负责下单模块；成果入口为 [database/](database/) 和 [sql/](sql/)。
 
-- 王伟锋（发布模块）：`app_user`、`book_category`、`book` 三张表，设计说明、概念 ER 图、表间关系图和数据字典见 [database/README.md](database/README.md)。
+- 王伟锋（发布模块）：`app_user`、`book_category`、`book` 三张表，设计说明、概念 ER 图、表间关系图和数据字典见 [database/README.md](database/README.md)，建表 SQL 见 [sql/04_book_publish.sql](sql/04_book_publish.sql)。
 - 许文博（下单模块）：个人报告见 [docs/reports/实验二/](docs/reports/实验二/)，建表 SQL 见 [sql/](sql/) 下的 `01_user_account.sql`、`02_book_listing.sql`、`03_reservation_order.sql`。
 - 当前两套材料对用户、书籍、订单的命名和状态值尚未统一（例如 `app_user` / `user_account`、`book` / `book_listing`、`ON_SALE` / `AVAILABLE`）；正式合并建库前需组内确认统一命名，暂不覆盖任何一方已提交内容。
 
@@ -40,7 +40,6 @@
 - [实验二个人报告（王伟锋）](docs/reports/实验二/32406300079_王伟锋_实验二.docx)
 - [实验二个人报告（许文博·下单模块）](<docs/reports/实验二/32406300083 许文博 软件243.docx>)
 - [实验二建表 SQL](sql/)
-- [大模型使用记录](records/ai-use.md)
 - [AI Agent 开发规范](AGENTS.md)
 
 ## 仓库结构
@@ -58,12 +57,11 @@
 │   └── reports/
 │       ├── 实验一/          # 实验一需求分析报告
 │       └── 实验二/          # 实验二数据库设计报告（王伟锋、许文博）
-├── records/
-│   └── ai-use.md            # 大模型使用记录
-└── sql/                     # 实验二建表 SQL（许文博·下单模块）
-    ├── 01_user_account.sql
-    ├── 02_book_listing.sql
-    └── 03_reservation_order.sql
+└── sql/                     # 实验二建表 SQL
+    ├── 01_user_account.sql  # 下单模块：用户
+    ├── 02_book_listing.sql  # 下单模块：书籍
+    ├── 03_reservation_order.sql # 下单模块：订单
+    └── 04_book_publish.sql  # 发布模块：用户、分类、书籍
 ~~~
 
 ## 小组协作信息
