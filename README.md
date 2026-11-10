@@ -23,25 +23,33 @@
 
 ## 当前进度
 
-项目已完成需求分析，进入数据库设计阶段。本仓库目前存放实验一需求材料和实验二数据库设计材料，尚未包含可运行的应用程序、技术栈说明或启动脚本；相关内容会在代码纳入仓库后补充。
+项目已完成需求分析，进入数据库设计阶段。本仓库目前存放实验一需求材料、实验二数据库设计材料及下单模块建表 SQL，尚未包含可运行的应用程序、技术栈说明或启动脚本；相关内容会在代码纳入仓库后补充。
 
 ## 实验二数据库设计
 
-本阶段由王伟锋负责发布书籍模块的数据库设计，成果入口为 [database/](database/)。当前材料覆盖 `app_user`、`book_category`、`book` 三张表；`book_order` 由组内下单模块负责人补充。设计范围、关键约束、概念 ER 图、表间关系图和数据字典均见该目录 README。
+本阶段由王伟锋负责发布书籍模块的数据库设计，许文博负责下单模块；成果入口为 [database/](database/) 和 [sql/](sql/)。
+
+- 王伟锋（发布模块）：`app_user`、`book_category`、`book` 三张表，设计说明、概念 ER 图、表间关系图和数据字典见 [database/README.md](database/README.md)。
+- 许文博（下单模块）：个人报告见 [docs/reports/实验二/](docs/reports/实验二/)，建表 SQL 见 [sql/](sql/) 下的 `01_user_account.sql`、`02_book_listing.sql`、`03_reservation_order.sql`。
+- 当前两套材料对用户、书籍、订单的命名和状态值尚未统一（例如 `app_user` / `user_account`、`book` / `book_listing`、`ON_SALE` / `AVAILABLE`）；正式合并建库前需组内确认统一命名，暂不覆盖任何一方已提交内容。
 
 ## 文档入口
 
 - [实验一需求分析材料](docs/reports/实验一/)
-- [实验二数据库设计材料](database/)
-- [实验二个人报告](docs/reports/实验二/32406300079_王伟锋_实验二.docx)
+- [实验二数据库设计材料（王伟锋·发布模块）](database/)
+- [实验二个人报告（王伟锋）](docs/reports/实验二/32406300079_王伟锋_实验二.docx)
+- [实验二个人报告（许文博·下单模块）](<docs/reports/实验二/32406300083 许文博 软件243.docx>)
+- [实验二建表 SQL](sql/)
 - [大模型使用记录](records/ai-use.md)
+- [AI Agent 开发规范](AGENTS.md)
 
 ## 仓库结构
 
 ~~~text
 .
+├── AGENTS.md                # 项目级 AI Agent 开发规范
 ├── README.md
-├── database/                # 实验二数据库设计材料
+├── database/                # 实验二发布模块数据库设计材料（王伟锋）
 │   ├── README.md
 │   ├── design.md
 │   ├── data-dictionary.md
@@ -49,9 +57,13 @@
 ├── docs/
 │   └── reports/
 │       ├── 实验一/          # 实验一需求分析报告
-│       └── 实验二/          # 实验二数据库设计报告
-└── records/
-    └── ai-use.md            # 大模型使用记录
+│       └── 实验二/          # 实验二数据库设计报告（王伟锋、许文博）
+├── records/
+│   └── ai-use.md            # 大模型使用记录
+└── sql/                     # 实验二建表 SQL（许文博·下单模块）
+    ├── 01_user_account.sql
+    ├── 02_book_listing.sql
+    └── 03_reservation_order.sql
 ~~~
 
 ## 小组协作信息

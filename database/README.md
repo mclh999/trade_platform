@@ -139,7 +139,14 @@
 
 ---
 
-## 8. 说明
+## 8. 组内其他材料与命名差异
+
+- 下单模块个人报告：[`../docs/reports/实验二/32406300083 许文博 软件243.docx`](<../docs/reports/实验二/32406300083 许文博 软件243.docx>)
+- 下单模块建表 SQL：[`../sql/`](../sql/)
+
+当前下单模块 SQL 使用 `user_account`、`book_listing`、`reservation_order`，本设计使用 `app_user`、`book_category`、`book`；状态值也存在 `AVAILABLE` 与 `ON_SALE` 的差异。两套材料均按各自负责人提交版本保留，正式合并建库前需组内统一表名、字段名和状态枚举，避免跨模块引用不一致。
+
+## 9. 说明
 
 - 图形由 Python 3.12 + Pillow 13 生成，源文件为 [`diagrams/draw_diagrams.py`](diagrams/draw_diagrams.py)；在 Windows 下运行 `py -3 draw_diagrams.py` 可重新生成两张 PNG。
 - 本阶段未执行 SQL，走查结论为设计推演；实际建表后应使用虚构数据验证。
