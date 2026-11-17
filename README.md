@@ -31,6 +31,7 @@
 
 - 王伟锋（发布模块）：`app_user`、`book_category`、`book` 三张表，设计说明、概念 ER 图、表间关系图和数据字典见 [database/README.md](database/README.md)，建表 SQL 见 [sql/04_book_publish.sql](sql/04_book_publish.sql)。
 - 许文博（下单模块）：个人报告见 [docs/reports/实验二/](docs/reports/实验二/)，建表 SQL 见 [sql/](sql/) 下的 `01_user_account.sql`、`02_book_listing.sql`、`03_reservation_order.sql`。
+- 吴锦森（查询模块）：个人报告见 [docs/reports/实验二/](docs/reports/实验二/)，建表 SQL 见 [sql/](sql/) 下的 `05_publisher_account.sql`、`02_book_type.sql`、`03_book_info.sql`。
 - 当前两套材料对用户、书籍、订单的命名和状态值尚未统一（例如 `app_user` / `user_account`、`book` / `book_listing`、`ON_SALE` / `AVAILABLE`）；正式合并建库前需组内确认统一命名，暂不覆盖任何一方已提交内容。
 
 ## 文档入口
@@ -39,6 +40,7 @@
 - [实验二数据库设计材料（王伟锋·发布模块）](database/)
 - [实验二个人报告（王伟锋）](docs/reports/实验二/32406300079_王伟锋_实验二.docx)
 - [实验二个人报告（许文博·下单模块）](<docs/reports/实验二/32406300083 许文博 软件243.docx>)
+- [实验二个人报告（吴锦森·查询模块）](<docs/reports/实验二/32406300082 吴锦森 软件243.docx>)
 - [实验二建表 SQL](sql/)
 - [AI Agent 开发规范](AGENTS.md)
 
