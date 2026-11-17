@@ -31,7 +31,7 @@
 
 - 王伟锋（发布模块）：`app_user`、`book_category`、`book` 三张表，设计说明、概念 ER 图、表间关系图和数据字典见 [database/README.md](database/README.md)，建表 SQL 见 [sql/04_book_publish.sql](sql/04_book_publish.sql)。
 - 许文博（下单模块）：个人报告见 [docs/reports/实验二/](docs/reports/实验二/)，建表 SQL 见 [sql/](sql/) 下的 `01_user_account.sql`、`02_book_listing.sql`、`03_reservation_order.sql`。
-- 吴锦森（查询模块）：个人报告见 [docs/reports/实验二/](docs/reports/实验二/)，建表 SQL 见 [sql/](sql/) 下的 `05_publisher_account.sql`、`02_book_type.sql`、`03_book_info.sql`。
+- 吴锦森（查询模块）：个人报告见 [docs/reports/实验二/](docs/reports/实验二/)，建表 SQL 见 [sql/](sql/) 下的 `05_publisher_account.sql`、`06_book_type.sql`、`07_book_info.sql`。
 - 当前两套材料对用户、书籍、订单的命名和状态值尚未统一（例如 `app_user` / `user_account`、`book` / `book_listing`、`ON_SALE` / `AVAILABLE`）；正式合并建库前需组内确认统一命名，暂不覆盖任何一方已提交内容。
 
 ## 文档入口
@@ -63,7 +63,10 @@
     ├── 01_user_account.sql  # 下单模块：用户
     ├── 02_book_listing.sql  # 下单模块：书籍
     ├── 03_reservation_order.sql # 下单模块：订单
-    └── 04_book_publish.sql  # 发布模块：用户、分类、书籍
+    ├── 04_book_publish.sql  # 发布模块：用户、分类、书籍
+    ├── 05_publisher_account.sql  # 管理模块：发布者
+    ├── 06_book_type.sql  # 管理模块：书籍类型
+    └── 07_book_info.sql  # 管理模块：书籍信息
 ~~~
 
 ## 小组协作信息
