@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1840" height="1280" viewBox="0 0 1840 1280">
+<title>通信图一：下单预留（正常流程）</title><desc>由 design/sequence/01_下单预留_正常与异常.svg 转换；序号与顺序图消息一一对应</desc>
+<rect x="0" y="0" width="1840" height="1280" fill="#FFFFFF"/>
+<g font-family="'Microsoft YaHei', 'DengXian', 'SimHei', Arial, sans-serif">
+<text x="56.0" y="42.0" font-size="29" fill="#243447" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">通信图一：下单预留（正常流程）</text>
+<text x="56.0" y="76.0" font-size="16" fill="#5B6B7A" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">由 design/sequence/01_下单预留_正常与异常.svg 转换；序号与顺序图消息一一对应</text>
+<line x1="394.0" y1="214.2" x2="256.0" y2="252.6" stroke="#90A4AE" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="562.6" y1="220.0" x2="817.4" y2="404.0" stroke="#90A4AE" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="1262.3" y1="250.0" x2="947.7" y2="404.0" stroke="#90A4AE" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="996.0" y1="447.4" x2="1224.0" y2="457.1" stroke="#90A4AE" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="885.6" y1="480.0" x2="994.4" y2="744.0" stroke="#90A4AE" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="1300.8" y1="500.0" x2="1049.2" y2="744.0" stroke="#90A4AE" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="1318.0" y1="250.0" x2="1032.0" y2="744.0" stroke="#90A4AE" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="335.5" y1="230.5" x2="360.5" y2="223.5" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M360.5,223.5 L352.0,230.5 L349.6,221.9 Z" fill="#2F6B9A"/>
+<rect x="324.6" y="193.4" width="34.0" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="341.6" y="204.4" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1</text>
+<line x1="627.2" y1="266.6" x2="667.9" y2="296.1" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M667.9,296.1 L657.2,293.8 L662.4,286.5 Z" fill="#2F6B9A"/>
+<rect x="615.0" y="290.3" width="37.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="633.5" y="301.3" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.1</text>
+<line x1="1158.5" y1="300.8" x2="1208.8" y2="276.2" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M1208.8,276.2 L1201.8,284.6 L1197.9,276.6 Z" fill="#2F6B9A"/>
+<rect x="1147.6" y="256.4" width="51.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="1173.1" y="267.4" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.1.1</text>
+<line x1="1130.2" y1="314.7" x2="1079.8" y2="339.3" stroke="#5B6B7A" stroke-width="2.1" stroke-dasharray="7 6" stroke-linecap="round"/>
+<path d="M1079.8,339.3 L1086.9,330.9 L1090.8,338.9 Z" fill="#5B6B7A"/>
+<rect x="1083.0" y="338.1" width="65.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#5B6B7A" stroke-width="1.2"/>
+<text x="1115.5" y="349.1" font-size="13.0" fill="#5B6B7A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.1.1.1</text>
+<line x1="1034.8" y1="449.0" x2="1071.2" y2="450.6" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M1071.2,450.6 L1061.0,454.6 L1061.4,445.7 Z" fill="#2F6B9A"/>
+<rect x="1026.4" y="463.3" width="51.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="1052.0" y="474.3" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.1.2</text>
+<line x1="1128.2" y1="453.0" x2="1091.8" y2="451.4" stroke="#5B6B7A" stroke-width="2.1" stroke-dasharray="7 6" stroke-linecap="round"/>
+<path d="M1091.8,451.4 L1102.0,447.4 L1101.6,456.3 Z" fill="#5B6B7A"/>
+<rect x="1078.5" y="417.7" width="65.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#5B6B7A" stroke-width="1.2"/>
+<text x="1111.0" y="428.7" font-size="13.0" fill="#5B6B7A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.1.2.1</text>
+<line x1="913.2" y1="546.9" x2="930.6" y2="589.1" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M930.6,589.1 L922.6,581.5 L930.9,578.1 Z" fill="#2F6B9A"/>
+<rect x="874.1" y="566.6" width="51.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="899.7" y="577.6" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.1.3</text>
+<line x1="1148.8" y1="453.9" x2="1185.2" y2="455.4" stroke="#3D7A2E" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M1185.2,455.4 L1175.0,459.5 L1175.4,450.5 Z" fill="#3D7A2E"/>
+<rect x="1140.4" y="468.1" width="51.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#3D7A2E" stroke-width="1.2"/>
+<text x="1166.0" y="479.1" font-size="13.0" fill="#3D7A2E" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.1.4</text>
+<line x1="1195.1" y1="602.5" x2="1154.9" y2="641.5" stroke="#3D7A2E" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M1154.9,641.5 L1159.0,631.3 L1165.2,637.7 Z" fill="#3D7A2E"/>
+<rect x="1125.7" y="594.3" width="65.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#3D7A2E" stroke-width="1.2"/>
+<text x="1158.3" y="605.3" font-size="13.0" fill="#3D7A2E" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.1.4.1</text>
+<line x1="1001.2" y1="377.8" x2="1051.5" y2="353.2" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M1051.5,353.2 L1044.5,361.6 L1040.5,353.6 Z" fill="#2F6B9A"/>
+<rect x="990.2" y="333.4" width="51.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="1015.8" y="344.4" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.1.5</text>
+<line x1="1190.5" y1="470.2" x2="1159.5" y2="523.8" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M1159.5,523.8 L1160.6,512.9 L1168.4,517.4 Z" fill="#2F6B9A"/>
+<rect x="1121.7" y="474.5" width="65.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="1154.2" y="485.5" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.1.5.1</text>
+<line x1="949.4" y1="634.9" x2="966.8" y2="677.1" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M966.8,677.1 L958.8,669.5 L967.1,666.1 Z" fill="#2F6B9A"/>
+<rect x="954.8" y="636.4" width="51.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="980.3" y="647.4" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.1.6</text>
+<line x1="752.8" y1="357.4" x2="712.1" y2="327.9" stroke="#5B6B7A" stroke-width="2.1" stroke-dasharray="7 6" stroke-linecap="round"/>
+<path d="M712.1,327.9 L722.8,330.2 L717.6,337.5 Z" fill="#5B6B7A"/>
+<rect x="728.0" y="312.7" width="37.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#5B6B7A" stroke-width="1.2"/>
+<text x="746.5" y="323.7" font-size="13.0" fill="#5B6B7A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.2</text>
+<line x1="314.5" y1="236.3" x2="289.5" y2="243.3" stroke="#5B6B7A" stroke-width="2.1" stroke-dasharray="7 6" stroke-linecap="round"/>
+<path d="M289.5,243.3 L298.0,236.2 L300.4,244.9 Z" fill="#5B6B7A"/>
+<rect x="289.9" y="252.4" width="37.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#5B6B7A" stroke-width="1.2"/>
+<text x="308.4" y="263.4" font-size="13.0" fill="#5B6B7A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.3</text>
+<rect x="50.0" y="250.0" width="200.0" height="64.0" rx="12" fill="#F2F4F6" stroke="#687783" stroke-width="2"/>
+<text x="150.0" y="273.0" font-size="18" fill="#243447" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">买家</text>
+<text x="150.0" y="298.0" font-size="12.5" fill="#5B6B7A" font-weight="400" text-anchor="middle" dominant-baseline="middle" opacity="1.0">Actor</text>
+<rect x="400.0" y="150.0" width="220.0" height="64.0" rx="12" fill="#DDEBF7" stroke="#2F6B9A" stroke-width="2"/>
+<text x="510.0" y="173.0" font-size="18" fill="#243447" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">预留界面</text>
+<text x="510.0" y="198.0" font-size="12.5" fill="#5B6B7A" font-weight="400" text-anchor="middle" dominant-baseline="middle" opacity="1.0">Boundary</text>
+<rect x="750.0" y="410.0" width="240.0" height="64.0" rx="12" fill="#DDF3EE" stroke="#1B7F6B" stroke-width="2"/>
+<text x="870.0" y="433.0" font-size="18" fill="#243447" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">预留服务</text>
+<text x="870.0" y="458.0" font-size="12.5" fill="#5B6B7A" font-weight="400" text-anchor="middle" dominant-baseline="middle" opacity="1.0">Control</text>
+<rect x="1230.0" y="180.0" width="220.0" height="64.0" rx="12" fill="#FFF4DC" stroke="#B56B00" stroke-width="2"/>
+<text x="1340.0" y="203.0" font-size="18" fill="#243447" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">book_listing</text>
+<text x="1340.0" y="228.0" font-size="12.5" fill="#5B6B7A" font-weight="400" text-anchor="middle" dominant-baseline="middle" opacity="1.0">Entity</text>
+<rect x="1230.0" y="430.0" width="220.0" height="64.0" rx="12" fill="#EFE7F7" stroke="#6B4C9A" stroke-width="2"/>
+<text x="1340.0" y="453.0" font-size="18" fill="#243447" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">reservation_order</text>
+<text x="1340.0" y="478.0" font-size="12.5" fill="#5B6B7A" font-weight="400" text-anchor="middle" dominant-baseline="middle" opacity="1.0">Entity</text>
+<rect x="900.0" y="750.0" width="220.0" height="64.0" rx="12" fill="#ECEFF1" stroke="#546E7A" stroke-width="2"/>
+<text x="1010.0" y="773.0" font-size="18" fill="#243447" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">事务 / 数据库</text>
+<text x="1010.0" y="798.0" font-size="12.5" fill="#5B6B7A" font-weight="400" text-anchor="middle" dominant-baseline="middle" opacity="1.0">Infra</text>
+<text x="1500.0" y="106.0" font-size="12.5" fill="#5B6B7A" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">实线 = 调用　虚线 = 返回　绿色 = 创建</text>
+<rect x="1500.0" y="118.0" width="296.0" height="390.0" rx="12" fill="#FBFCFD" stroke="#C7D1D8" stroke-width="1.4"/>
+<text x="1518.0" y="145.0" font-size="17" fill="#243447" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">消息序号对照</text>
+<text x="1778.0" y="145.0" font-size="12.5" fill="#5B6B7A" font-weight="400" text-anchor="end" dominant-baseline="middle" opacity="1.0">共 14 条</text>
+<text x="1518.0" y="170.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1</text>
+<text x="1582.0" y="170.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">submitReservation</text>
+<rect x="1510.0" y="184.0" width="276.0" height="22.0" rx="4" fill="#F2F4F6" stroke="#F2F4F6" stroke-width="0"/>
+<text x="1518.0" y="193.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.1</text>
+<text x="1582.0" y="193.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">reserveBook</text>
+<text x="1518.0" y="216.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.1.1</text>
+<text x="1582.0" y="216.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">findBook</text>
+<rect x="1510.0" y="230.0" width="276.0" height="22.0" rx="4" fill="#F2F4F6" stroke="#F2F4F6" stroke-width="0"/>
+<text x="1518.0" y="239.0" font-size="12.5" fill="#5B6B7A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.1.1.1</text>
+<text x="1582.0" y="239.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">«return» BookInfo</text>
+<text x="1518.0" y="262.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.1.2</text>
+<text x="1582.0" y="262.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">findActiveOrder</text>
+<rect x="1510.0" y="276.0" width="276.0" height="22.0" rx="4" fill="#F2F4F6" stroke="#F2F4F6" stroke-width="0"/>
+<text x="1518.0" y="285.0" font-size="12.5" fill="#5B6B7A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.1.2.1</text>
+<text x="1582.0" y="285.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">«return» ActiveOrder/null</text>
+<text x="1518.0" y="308.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.1.3</text>
+<text x="1582.0" y="308.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">beginTransaction</text>
+<rect x="1510.0" y="322.0" width="276.0" height="22.0" rx="4" fill="#F2F4F6" stroke="#F2F4F6" stroke-width="0"/>
+<text x="1518.0" y="331.0" font-size="12.5" fill="#3D7A2E" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.1.4</text>
+<text x="1582.0" y="331.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">createActive</text>
+<text x="1518.0" y="354.0" font-size="12.5" fill="#3D7A2E" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.1.4.1</text>
+<text x="1582.0" y="354.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">INSERT order</text>
+<rect x="1510.0" y="368.0" width="276.0" height="22.0" rx="4" fill="#F2F4F6" stroke="#F2F4F6" stroke-width="0"/>
+<text x="1518.0" y="377.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.1.5</text>
+<text x="1582.0" y="377.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">markReserved</text>
+<text x="1518.0" y="400.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.1.5.1</text>
+<text x="1582.0" y="400.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">UPDATE book</text>
+<rect x="1510.0" y="414.0" width="276.0" height="22.0" rx="4" fill="#F2F4F6" stroke="#F2F4F6" stroke-width="0"/>
+<text x="1518.0" y="423.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.1.6</text>
+<text x="1582.0" y="423.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">commit</text>
+<text x="1518.0" y="446.0" font-size="12.5" fill="#5B6B7A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.2</text>
+<text x="1582.0" y="446.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">«return» ReservationResult</text>
+<rect x="1510.0" y="460.0" width="276.0" height="22.0" rx="4" fill="#F2F4F6" stroke="#F2F4F6" stroke-width="0"/>
+<text x="1518.0" y="469.0" font-size="12.5" fill="#5B6B7A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.3</text>
+<text x="1582.0" y="469.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">confirmed</text>
+<rect x="50.0" y="870.0" width="1440.0" height="334.0" rx="12" fill="#FAFBFC" stroke="#687783" stroke-width="2" stroke-dasharray="9 7"/>
+<rect x="50.0" y="870.0" width="92.0" height="34.0" rx="5" fill="#FCE3E3" stroke="#B33A3A" stroke-width="1"/>
+<text x="96.0" y="887.0" font-size="17" fill="#B33A3A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">alt</text>
+<text x="160.0" y="887.0" font-size="17" fill="#243447" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">异常 / 备选分支（不进入正常序号）</text>
+<rect x="76.0" y="920.0" width="1388.0" height="78.0" rx="8" fill="#FCE3E3" stroke="#B33A3A" stroke-width="1"/>
+<text x="96.0" y="941.0" font-size="16" fill="#B33A3A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">[buyerId == sellerId]</text>
+<text x="96.0" y="967.0" font-size="15" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">预留服务 → 预留界面：reject(SELF_RESERVATION)</text>
+<text x="96.0" y="988.0" font-size="15" fill="#5B6B7A" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">不创建订单；书籍保持 AVAILABLE。</text>
+<rect x="76.0" y="1012.0" width="1388.0" height="78.0" rx="8" fill="#FFF4DC" stroke="#B56B00" stroke-width="1"/>
+<text x="96.0" y="1033.0" font-size="16" fill="#B56B00" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">[status != AVAILABLE 或存在 ACTIVE 订单]</text>
+<text x="96.0" y="1059.0" font-size="15" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">预留服务 → 预留界面：reject(BOOK_RESERVED)</text>
+<text x="96.0" y="1080.0" font-size="15" fill="#5B6B7A" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">不新增订单；原订单和书籍状态不变。</text>
+<rect x="76.0" y="1104.0" width="1388.0" height="78.0" rx="8" fill="#FCE3E3" stroke="#B33A3A" stroke-width="1"/>
+<text x="96.0" y="1125.0" font-size="16" fill="#B33A3A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">[并发请求导致唯一约束/条件更新失败]</text>
+<text x="96.0" y="1151.0" font-size="15" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">事务/数据库 → 预留服务：rollback()；预留服务 → 预留界面：reject(BOOK_RESERVED)</text>
+<text x="96.0" y="1172.0" font-size="15" fill="#5B6B7A" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">只有先成功受理的请求保留 ACTIVE 订单。</text>
+<text x="56.0" y="1250.0" font-size="15" fill="#5B6B7A" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">状态结果：成功时 book_listing.AVAILABLE → RESERVED，reservation_order 新增 ACTIVE；异常分支不改变既有状态。</text>
+</g></svg>

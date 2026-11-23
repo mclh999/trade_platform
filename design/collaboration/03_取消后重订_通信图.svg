@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1840" height="1450" viewBox="0 0 1840 1450">
+<title>通信图三：取消后重新预留（边界一致性）</title><desc>由 design/sequence/03_取消后重订_边界场景.svg 转换；补充旧取消请求晚到的消息</desc>
+<rect x="0" y="0" width="1840" height="1450" fill="#FFFFFF"/>
+<g font-family="'Microsoft YaHei', 'DengXian', 'SimHei', Arial, sans-serif">
+<text x="56.0" y="42.0" font-size="29" fill="#243447" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">通信图三：取消后重新预留（边界一致性）</text>
+<text x="56.0" y="76.0" font-size="16" fill="#5B6B7A" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">由 design/sequence/03_取消后重订_边界场景.svg 转换；补充旧取消请求晚到的消息</text>
+<line x1="251.6" y1="230.0" x2="783.4" y2="494.0" stroke="#90A4AE" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="860.0" y1="170.0" x2="860.0" y2="494.0" stroke="#90A4AE" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="986.0" y1="532.0" x2="1264.0" y2="532.0" stroke="#90A4AE" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="860.0" y1="570.0" x2="860.0" y2="894.0" stroke="#90A4AE" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="767.0" y1="570.0" x2="268.0" y2="774.0" stroke="#90A4AE" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="330.2" y1="269.0" x2="385.7" y2="296.6" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M385.7,296.6 L374.7,296.1 L378.7,288.1 Z" fill="#2F6B9A"/>
+<rect x="330.3" y="293.8" width="34.0" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="347.3" y="304.8" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1</text>
+<line x1="860.0" y1="231.9" x2="860.0" y2="180.1" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M860.0,180.1 L864.5,190.1 L855.5,190.1 Z" fill="#2F6B9A"/>
+<rect x="817.5" y="195.5" width="37.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="836.0" y="206.5" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.1</text>
+<line x1="860.0" y1="216.1" x2="860.0" y2="267.9" stroke="#5B6B7A" stroke-width="2.1" stroke-dasharray="7 6" stroke-linecap="round"/>
+<path d="M860.0,267.9 L855.5,257.9 L864.5,257.9 Z" fill="#5B6B7A"/>
+<rect x="858.5" y="231.5" width="51.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#5B6B7A" stroke-width="1.2"/>
+<text x="884.0" y="242.5" font-size="13.0" fill="#5B6B7A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.1.1</text>
+<line x1="1019.4" y1="532.0" x2="1063.8" y2="532.0" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M1063.8,532.0 L1053.8,536.5 L1053.8,527.5 Z" fill="#2F6B9A"/>
+<rect x="1023.1" y="545.5" width="37.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="1041.6" y="556.5" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.2</text>
+<line x1="860.0" y1="303.9" x2="860.0" y2="252.1" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M860.0,252.1 L864.5,262.1 L855.5,262.1 Z" fill="#2F6B9A"/>
+<rect x="817.5" y="267.5" width="37.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="836.0" y="278.5" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.3</text>
+<line x1="860.0" y1="339.9" x2="860.0" y2="288.1" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M860.0,288.1 L864.5,298.1 L855.5,298.1 Z" fill="#2F6B9A"/>
+<rect x="865.5" y="303.5" width="37.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="884.0" y="314.5" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.4</text>
+<line x1="860.0" y1="324.1" x2="860.0" y2="375.9" stroke="#5B6B7A" stroke-width="2.1" stroke-dasharray="7 6" stroke-linecap="round"/>
+<path d="M860.0,375.9 L855.5,365.9 L864.5,365.9 Z" fill="#5B6B7A"/>
+<rect x="810.5" y="339.5" width="51.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#5B6B7A" stroke-width="1.2"/>
+<text x="836.0" y="350.5" font-size="13.0" fill="#5B6B7A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.4.1</text>
+<line x1="860.0" y1="608.9" x2="860.0" y2="660.7" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M860.0,660.7 L855.5,650.7 L864.5,650.7 Z" fill="#2F6B9A"/>
+<rect x="817.5" y="624.3" width="37.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="836.0" y="635.3" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.5</text>
+<line x1="1075.0" y1="532.0" x2="1119.4" y2="532.0" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M1119.4,532.0 L1109.4,536.5 L1109.4,527.5 Z" fill="#2F6B9A"/>
+<rect x="1078.7" y="497.5" width="37.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="1097.2" y="508.5" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.6</text>
+<line x1="492.1" y1="349.4" x2="436.5" y2="321.8" stroke="#5B6B7A" stroke-width="2.1" stroke-dasharray="7 6" stroke-linecap="round"/>
+<path d="M436.5,321.8 L447.5,322.3 L443.5,330.3 Z" fill="#5B6B7A"/>
+<rect x="456.5" y="303.6" width="37.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#5B6B7A" stroke-width="1.2"/>
+<text x="475.0" y="314.6" font-size="13.0" fill="#5B6B7A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">1.7</text>
+<line x1="572.0" y1="649.7" x2="629.4" y2="626.3" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M629.4,626.3 L621.8,634.2 L618.4,625.9 Z" fill="#2F6B9A"/>
+<rect x="574.6" y="605.3" width="34.0" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="591.6" y="616.3" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">2</text>
+<line x1="860.0" y1="673.7" x2="860.0" y2="725.5" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M860.0,725.5 L855.5,715.5 L864.5,715.5 Z" fill="#2F6B9A"/>
+<rect x="865.5" y="689.1" width="37.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="884.0" y="700.1" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">2.1</text>
+<line x1="860.0" y1="790.3" x2="860.0" y2="738.5" stroke="#5B6B7A" stroke-width="2.1" stroke-dasharray="7 6" stroke-linecap="round"/>
+<path d="M860.0,738.5 L864.5,748.5 L855.5,748.5 Z" fill="#5B6B7A"/>
+<rect x="810.5" y="753.9" width="51.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#5B6B7A" stroke-width="1.2"/>
+<text x="836.0" y="764.9" font-size="13.0" fill="#5B6B7A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">2.1.1</text>
+<line x1="1130.6" y1="532.0" x2="1175.0" y2="532.0" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M1175.0,532.0 L1165.0,536.5 L1165.0,527.5 Z" fill="#2F6B9A"/>
+<rect x="1134.3" y="545.5" width="37.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="1152.8" y="556.5" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">2.2</text>
+<line x1="860.0" y1="411.9" x2="860.0" y2="360.1" stroke="#3D7A2E" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M860.0,360.1 L864.5,370.1 L855.5,370.1 Z" fill="#3D7A2E"/>
+<rect x="865.5" y="375.5" width="37.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#3D7A2E" stroke-width="1.2"/>
+<text x="884.0" y="386.5" font-size="13.0" fill="#3D7A2E" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">2.3</text>
+<line x1="860.0" y1="803.3" x2="860.0" y2="855.1" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M860.0,855.1 L855.5,845.1 L864.5,845.1 Z" fill="#2F6B9A"/>
+<rect x="865.5" y="818.7" width="37.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="884.0" y="829.7" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">2.4</text>
+<line x1="1186.2" y1="532.0" x2="1230.6" y2="532.0" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M1230.6,532.0 L1220.6,536.5 L1220.6,527.5 Z" fill="#2F6B9A"/>
+<rect x="1189.9" y="497.5" width="37.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="1208.4" y="508.5" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">2.5</text>
+<line x1="463.0" y1="694.3" x2="405.6" y2="717.7" stroke="#5B6B7A" stroke-width="2.1" stroke-dasharray="7 6" stroke-linecap="round"/>
+<path d="M405.6,717.7 L413.2,709.8 L416.6,718.1 Z" fill="#5B6B7A"/>
+<rect x="424.9" y="717.7" width="37.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#5B6B7A" stroke-width="1.2"/>
+<text x="443.4" y="728.7" font-size="13.0" fill="#5B6B7A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">2.6</text>
+<line x1="542.9" y1="374.6" x2="598.5" y2="402.2" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M598.5,402.2 L587.5,401.7 L591.5,393.7 Z" fill="#2F6B9A"/>
+<rect x="543.0" y="399.4" width="34.0" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="560.0" y="410.4" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">3</text>
+<line x1="860.0" y1="447.9" x2="860.0" y2="396.1" stroke="#2F6B9A" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M860.0,396.1 L864.5,406.1 L855.5,406.1 Z" fill="#2F6B9A"/>
+<rect x="817.5" y="411.5" width="37.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#2F6B9A" stroke-width="1.2"/>
+<text x="836.0" y="422.5" font-size="13.0" fill="#2F6B9A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">3.1</text>
+<line x1="860.0" y1="432.1" x2="860.0" y2="483.9" stroke="#5B6B7A" stroke-width="2.1" stroke-dasharray="7 6" stroke-linecap="round"/>
+<path d="M860.0,483.9 L855.5,473.9 L864.5,473.9 Z" fill="#5B6B7A"/>
+<rect x="858.5" y="447.5" width="51.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#5B6B7A" stroke-width="1.2"/>
+<text x="884.0" y="458.5" font-size="13.0" fill="#5B6B7A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">3.1.1</text>
+<line x1="704.8" y1="455.0" x2="649.3" y2="427.4" stroke="#5B6B7A" stroke-width="2.1" stroke-dasharray="7 6" stroke-linecap="round"/>
+<path d="M649.3,427.4 L660.3,427.9 L656.3,435.9 Z" fill="#5B6B7A"/>
+<rect x="669.2" y="409.2" width="37.1" height="21.0" rx="5" fill="#FFFFFF" stroke="#5B6B7A" stroke-width="1.2"/>
+<text x="687.7" y="420.2" font-size="13.0" fill="#5B6B7A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">3.2</text>
+<rect x="80.0" y="160.0" width="190.0" height="64.0" rx="12" fill="#F2F4F6" stroke="#687783" stroke-width="2"/>
+<text x="175.0" y="183.0" font-size="18" fill="#243447" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">买家 A</text>
+<text x="175.0" y="208.0" font-size="12.5" fill="#5B6B7A" font-weight="400" text-anchor="middle" dominant-baseline="middle" opacity="1.0">Actor</text>
+<rect x="80.0" y="780.0" width="190.0" height="64.0" rx="12" fill="#F2F4F6" stroke="#687783" stroke-width="2"/>
+<text x="175.0" y="803.0" font-size="18" fill="#243447" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">买家 B</text>
+<text x="175.0" y="828.0" font-size="12.5" fill="#5B6B7A" font-weight="400" text-anchor="middle" dominant-baseline="middle" opacity="1.0">Actor</text>
+<rect x="740.0" y="500.0" width="240.0" height="64.0" rx="12" fill="#DDF3EE" stroke="#1B7F6B" stroke-width="2"/>
+<text x="860.0" y="523.0" font-size="18" fill="#243447" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">订单服务</text>
+<text x="860.0" y="548.0" font-size="12.5" fill="#5B6B7A" font-weight="400" text-anchor="middle" dominant-baseline="middle" opacity="1.0">Control</text>
+<rect x="740.0" y="100.0" width="240.0" height="64.0" rx="12" fill="#EFE7F7" stroke="#6B4C9A" stroke-width="2"/>
+<text x="860.0" y="123.0" font-size="18" fill="#243447" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">reservation_order</text>
+<text x="860.0" y="148.0" font-size="12.5" fill="#5B6B7A" font-weight="400" text-anchor="middle" dominant-baseline="middle" opacity="1.0">Entity</text>
+<rect x="740.0" y="900.0" width="240.0" height="64.0" rx="12" fill="#FFF4DC" stroke="#B56B00" stroke-width="2"/>
+<text x="860.0" y="923.0" font-size="18" fill="#243447" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">book_listing</text>
+<text x="860.0" y="948.0" font-size="12.5" fill="#5B6B7A" font-weight="400" text-anchor="middle" dominant-baseline="middle" opacity="1.0">Entity</text>
+<rect x="1270.0" y="500.0" width="200.0" height="64.0" rx="12" fill="#ECEFF1" stroke="#546E7A" stroke-width="2"/>
+<text x="1370.0" y="523.0" font-size="18" fill="#243447" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">事务 / 数据库</text>
+<text x="1370.0" y="548.0" font-size="12.5" fill="#5B6B7A" font-weight="400" text-anchor="middle" dominant-baseline="middle" opacity="1.0">Infra</text>
+<text x="1500.0" y="106.0" font-size="12.5" fill="#5B6B7A" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">实线 = 调用　虚线 = 返回　绿色 = 创建</text>
+<rect x="1500.0" y="118.0" width="296.0" height="574.0" rx="12" fill="#FBFCFD" stroke="#C7D1D8" stroke-width="1.4"/>
+<text x="1518.0" y="145.0" font-size="17" fill="#243447" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">消息序号对照</text>
+<text x="1778.0" y="145.0" font-size="12.5" fill="#5B6B7A" font-weight="400" text-anchor="end" dominant-baseline="middle" opacity="1.0">共 22 条</text>
+<text x="1518.0" y="170.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1</text>
+<text x="1582.0" y="170.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">cancel</text>
+<rect x="1510.0" y="184.0" width="276.0" height="22.0" rx="4" fill="#F2F4F6" stroke="#F2F4F6" stroke-width="0"/>
+<text x="1518.0" y="193.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.1</text>
+<text x="1582.0" y="193.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">findOrder</text>
+<text x="1518.0" y="216.0" font-size="12.5" fill="#5B6B7A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.1.1</text>
+<text x="1582.0" y="216.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">«return» ACTIVE</text>
+<rect x="1510.0" y="230.0" width="276.0" height="22.0" rx="4" fill="#F2F4F6" stroke="#F2F4F6" stroke-width="0"/>
+<text x="1518.0" y="239.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.2</text>
+<text x="1582.0" y="239.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">beginTransaction</text>
+<text x="1518.0" y="262.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.3</text>
+<text x="1582.0" y="262.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">orderA→CANCELLED</text>
+<rect x="1510.0" y="276.0" width="276.0" height="22.0" rx="4" fill="#F2F4F6" stroke="#F2F4F6" stroke-width="0"/>
+<text x="1518.0" y="285.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.4</text>
+<text x="1582.0" y="285.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">checkCurrentOrder</text>
+<text x="1518.0" y="308.0" font-size="12.5" fill="#5B6B7A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.4.1</text>
+<text x="1582.0" y="308.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">«return» null</text>
+<rect x="1510.0" y="322.0" width="276.0" height="22.0" rx="4" fill="#F2F4F6" stroke="#F2F4F6" stroke-width="0"/>
+<text x="1518.0" y="331.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.5</text>
+<text x="1582.0" y="331.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">book→AVAILABLE</text>
+<text x="1518.0" y="354.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.6</text>
+<text x="1582.0" y="354.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">commit</text>
+<rect x="1510.0" y="368.0" width="276.0" height="22.0" rx="4" fill="#F2F4F6" stroke="#F2F4F6" stroke-width="0"/>
+<text x="1518.0" y="377.0" font-size="12.5" fill="#5B6B7A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">1.7</text>
+<text x="1582.0" y="377.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">success(cancelled)</text>
+<text x="1518.0" y="400.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">2</text>
+<text x="1582.0" y="400.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">reserve</text>
+<rect x="1510.0" y="414.0" width="276.0" height="22.0" rx="4" fill="#F2F4F6" stroke="#F2F4F6" stroke-width="0"/>
+<text x="1518.0" y="423.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">2.1</text>
+<text x="1582.0" y="423.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">check AVAILABLE</text>
+<text x="1518.0" y="446.0" font-size="12.5" fill="#5B6B7A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">2.1.1</text>
+<text x="1582.0" y="446.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">«return» AVAILABLE</text>
+<rect x="1510.0" y="460.0" width="276.0" height="22.0" rx="4" fill="#F2F4F6" stroke="#F2F4F6" stroke-width="0"/>
+<text x="1518.0" y="469.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">2.2</text>
+<text x="1582.0" y="469.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">beginTransaction</text>
+<text x="1518.0" y="492.0" font-size="12.5" fill="#3D7A2E" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">2.3</text>
+<text x="1582.0" y="492.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">create orderB</text>
+<rect x="1510.0" y="506.0" width="276.0" height="22.0" rx="4" fill="#F2F4F6" stroke="#F2F4F6" stroke-width="0"/>
+<text x="1518.0" y="515.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">2.4</text>
+<text x="1582.0" y="515.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">book→RESERVED</text>
+<text x="1518.0" y="538.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">2.5</text>
+<text x="1582.0" y="538.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">commit</text>
+<rect x="1510.0" y="552.0" width="276.0" height="22.0" rx="4" fill="#F2F4F6" stroke="#F2F4F6" stroke-width="0"/>
+<text x="1518.0" y="561.0" font-size="12.5" fill="#5B6B7A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">2.6</text>
+<text x="1582.0" y="561.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">success(orderB)</text>
+<text x="1518.0" y="584.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">3</text>
+<text x="1582.0" y="584.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">cancel(orderA) 晚到</text>
+<rect x="1510.0" y="598.0" width="276.0" height="22.0" rx="4" fill="#F2F4F6" stroke="#F2F4F6" stroke-width="0"/>
+<text x="1518.0" y="607.0" font-size="12.5" fill="#2F6B9A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">3.1</text>
+<text x="1582.0" y="607.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">findOrder</text>
+<text x="1518.0" y="630.0" font-size="12.5" fill="#5B6B7A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">3.1.1</text>
+<text x="1582.0" y="630.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">«return» CANCELLED</text>
+<rect x="1510.0" y="644.0" width="276.0" height="22.0" rx="4" fill="#F2F4F6" stroke="#F2F4F6" stroke-width="0"/>
+<text x="1518.0" y="653.0" font-size="12.5" fill="#5B6B7A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">3.2</text>
+<text x="1582.0" y="653.0" font-size="12.5" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">reject(OLD_REQUEST)</text>
+<rect x="50.0" y="1040.0" width="1440.0" height="334.0" rx="12" fill="#FAFBFC" stroke="#687783" stroke-width="2" stroke-dasharray="9 7"/>
+<rect x="50.0" y="1040.0" width="92.0" height="34.0" rx="5" fill="#FCE3E3" stroke="#B33A3A" stroke-width="1"/>
+<text x="96.0" y="1057.0" font-size="17" fill="#B33A3A" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="1.0">alt</text>
+<text x="160.0" y="1057.0" font-size="17" fill="#243447" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">异常 / 备选分支（不进入正常序号）</text>
+<rect x="76.0" y="1090.0" width="1388.0" height="78.0" rx="8" fill="#FCE3E3" stroke="#B33A3A" stroke-width="1"/>
+<text x="96.0" y="1111.0" font-size="16" fill="#B33A3A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">[orderA 已 CANCELLED 且 orderB 已 ACTIVE]</text>
+<text x="96.0" y="1137.0" font-size="15" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">订单服务 → 买家 A：reject(OLD_REQUEST)</text>
+<text x="96.0" y="1158.0" font-size="15" fill="#5B6B7A" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">不修改 orderB；book_listing 保持 RESERVED。</text>
+<rect x="76.0" y="1182.0" width="1388.0" height="78.0" rx="8" fill="#FFF4DC" stroke="#B56B00" stroke-width="1"/>
+<text x="96.0" y="1203.0" font-size="16" fill="#B56B00" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">[orderA 取消成功且当前无其他 ACTIVE 订单]</text>
+<text x="96.0" y="1229.0" font-size="15" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">订单服务 → book_listing：book → AVAILABLE</text>
+<text x="96.0" y="1250.0" font-size="15" fill="#5B6B7A" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">订单 A 保留为 CANCELLED，历史不删除。</text>
+<rect x="76.0" y="1274.0" width="1388.0" height="78.0" rx="8" fill="#FCE3E3" stroke="#B33A3A" stroke-width="1"/>
+<text x="96.0" y="1295.0" font-size="16" fill="#B33A3A" font-weight="700" text-anchor="start" dominant-baseline="middle" opacity="1.0">[买家 B 预留时书籍仍被占用]</text>
+<text x="96.0" y="1321.0" font-size="15" fill="#243447" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">订单服务 → 买家 B：reject(BOOK_RESERVED)</text>
+<text x="96.0" y="1342.0" font-size="15" fill="#5B6B7A" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">不创建 orderB；书籍状态不变。</text>
+<text x="56.0" y="1420.0" font-size="15" fill="#5B6B7A" font-weight="400" text-anchor="start" dominant-baseline="middle" opacity="1.0">一致性结果：orderA 保留为 CANCELLED；orderB 为唯一 ACTIVE 订单；book_listing 为 RESERVED。</text>
+</g></svg>

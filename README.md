@@ -2,7 +2,7 @@
 
 > 面向校园用户的二手书流转平台，覆盖书籍发布、检索与查看、下单预留和订单取消。
 
-**仓库**：`trade_platform`　·　**课程**：软件工程导论实验　·　**当前阶段**：数据库设计
+**仓库**：`trade_platform`　·　**课程**：软件工程导论实验　·　**当前阶段**：软件设计
 
 ---
 
@@ -23,7 +23,17 @@
 
 ## 当前进度
 
-项目已完成需求分析，进入数据库设计阶段。本仓库目前存放实验一需求材料、实验二数据库设计材料及下单模块建表 SQL，尚未包含可运行的应用程序、技术栈说明或启动脚本；相关内容会在代码纳入仓库后补充。
+项目已完成需求分析、数据库设计，进入软件设计阶段。本仓库目前存放实验一需求材料、实验二数据库设计材料与建表 SQL，以及实验三的软件设计共享模型；尚未包含可运行的应用程序、技术栈说明或启动脚本，相关内容会在代码纳入仓库后补充。
+
+## 实验三 软件设计
+
+本阶段围绕发布书籍、检索与查看、下单预留、取消订单四项核心业务，完成类图、顺序图、协作图、状态图和活动图，并进行跨模型一致性走查。共享设计入口为 [design/](design/)。
+
+- 许文博（顺序图）：5 张正常/异常交互顺序图，见 [design/sequence/](design/sequence/)。
+- 王伟锋（协作图，C 部分）：5 张通信图、对象与消息对应表、10 个场景走查汇总、D 状态图/活动图检查清单，见 [design/collaboration/](design/collaboration/)、[design/walkthrough/](design/walkthrough/) 和 [design/cross-check/](design/cross-check/)。
+- 类图（A）以及状态图、活动图（D）待组内提交后合并。
+- 实验三共享模型统一采用 `book_listing`、`reservation_order`、`user_account` 及 `AVAILABLE/RESERVED`、`ACTIVE/CANCELLED` 命名；实验二发布模块的 `book`/`ON_SALE` 命名差异已记录在走查的 R-01，正式建库前需组内统一。
+- 协作图及其映射表由 [design/collaboration/tools/generate_communication.py](design/collaboration/tools/generate_communication.py) 生成，可按 [design/README.md](design/README.md) 第 5 节复现。
 
 ## 实验二数据库设计
 
@@ -42,6 +52,10 @@
 - [实验二个人报告（许文博·下单模块）](<docs/reports/实验二/32406300083 许文博 软件243.docx>)
 - [实验二个人报告（吴锦森·查询模块）](<docs/reports/实验二/32406300082 吴锦森 软件243.docx>)
 - [实验二建表 SQL](sql/)
+- [实验三软件设计共享模型](design/)
+- [实验三协作图与消息对应说明](design/collaboration/README.md)
+- [实验三场景走查汇总](design/walkthrough/scenarios.md)
+- [实验三状态图/活动图交叉检查清单](design/cross-check/state-activity-check.md)
 - [AI Agent 开发规范](AGENTS.md)
 
 ## 仓库结构
@@ -55,10 +69,17 @@
 │   ├── design.md
 │   ├── data-dictionary.md
 │   └── diagrams/            # 概念ER图、表间关系图及生成脚本
+├── design/                  # 实验三软件设计共享模型
+│   ├── README.md            # 设计范围、命名基线、图索引
+│   ├── sequence/            # 顺序图（许文博）
+│   ├── collaboration/       # 协作图、消息对应表与生成脚本（王伟锋）
+│   ├── walkthrough/         # 场景走查汇总（王伟锋）
+│   └── cross-check/         # 状态图/活动图检查清单（王伟锋，待D提交）
 ├── docs/
 │   └── reports/
 │       ├── 实验一/          # 实验一需求分析报告
-│       └── 实验二/          # 实验二数据库设计报告（王伟锋、许文博）
+│       ├── 实验二/          # 实验二数据库设计报告
+│       └── 实验三/          # 实验三个人报告
 └── sql/                     # 实验二建表 SQL
     ├── 01_user_account.sql  # 下单模块：用户
     ├── 02_book_listing.sql  # 下单模块：书籍
