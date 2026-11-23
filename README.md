@@ -2,7 +2,7 @@
 
 > 面向校园用户的二手书流转平台，覆盖书籍发布、检索与查看、下单预留和订单取消。
 
-**仓库**：`trade_platform`　·　**课程**：软件工程导论实验　·　**当前阶段**：需求分析
+**仓库**：`trade_platform`　·　**课程**：软件工程导论实验　·　**当前阶段**：数据库设计
 
 ---
 
@@ -23,20 +23,50 @@
 
 ## 当前进度
 
-项目处于需求分析阶段。本仓库目前主要存放实验一需求材料，尚未包含可运行的应用程序、技术栈说明或启动脚本；相关内容会在代码纳入仓库后补充。
+项目已完成需求分析，进入数据库设计阶段。本仓库目前存放实验一需求材料、实验二数据库设计材料及下单模块建表 SQL，尚未包含可运行的应用程序、技术栈说明或启动脚本；相关内容会在代码纳入仓库后补充。
+
+## 实验二数据库设计
+
+本阶段由王伟锋负责发布书籍模块的数据库设计，许文博负责下单模块；成果入口为 [database/](database/) 和 [sql/](sql/)。
+
+- 王伟锋（发布模块）：`app_user`、`book_category`、`book` 三张表，设计说明、概念 ER 图、表间关系图和数据字典见 [database/README.md](database/README.md)，建表 SQL 见 [sql/04_book_publish.sql](sql/04_book_publish.sql)。
+- 许文博（下单模块）：个人报告见 [docs/reports/实验二/](docs/reports/实验二/)，建表 SQL 见 [sql/](sql/) 下的 `01_user_account.sql`、`02_book_listing.sql`、`03_reservation_order.sql`。
+- 吴锦森（查询模块）：个人报告见 [docs/reports/实验二/](docs/reports/实验二/)，建表 SQL 见 [sql/](sql/) 下的 `05_publisher_account.sql`、`06_book_type.sql`、`07_book_info.sql`。
+- 当前两套材料对用户、书籍、订单的命名和状态值尚未统一（例如 `app_user` / `user_account`、`book` / `book_listing`、`ON_SALE` / `AVAILABLE`）；正式合并建库前需组内确认统一命名，暂不覆盖任何一方已提交内容。
 
 ## 文档入口
 
 - [实验一需求分析材料](docs/reports/实验一/)
+- [实验二数据库设计材料（王伟锋·发布模块）](database/)
+- [实验二个人报告（王伟锋）](docs/reports/实验二/32406300079_王伟锋_实验二.docx)
+- [实验二个人报告（许文博·下单模块）](<docs/reports/实验二/32406300083 许文博 软件243.docx>)
+- [实验二个人报告（吴锦森·查询模块）](<docs/reports/实验二/32406300082 吴锦森 软件243.docx>)
+- [实验二建表 SQL](sql/)
+- [AI Agent 开发规范](AGENTS.md)
 
 ## 仓库结构
 
 ~~~text
 .
+├── AGENTS.md                # 项目级 AI Agent 开发规范
 ├── README.md
-└── docs/
-    └── reports/
-        └── 实验一/    # 实验一需求分析报告
+├── database/                # 实验二发布模块数据库设计材料（王伟锋）
+│   ├── README.md
+│   ├── design.md
+│   ├── data-dictionary.md
+│   └── diagrams/            # 概念ER图、表间关系图及生成脚本
+├── docs/
+│   └── reports/
+│       ├── 实验一/          # 实验一需求分析报告
+│       └── 实验二/          # 实验二数据库设计报告（王伟锋、许文博）
+└── sql/                     # 实验二建表 SQL
+    ├── 01_user_account.sql  # 下单模块：用户
+    ├── 02_book_listing.sql  # 下单模块：书籍
+    ├── 03_reservation_order.sql # 下单模块：订单
+    ├── 04_book_publish.sql  # 发布模块：用户、分类、书籍
+    ├── 05_publisher_account.sql  # 管理模块：发布者
+    ├── 06_book_type.sql  # 管理模块：书籍类型
+    └── 07_book_info.sql  # 管理模块：书籍信息
 ~~~
 
 ## 小组协作信息
@@ -50,12 +80,4 @@
 
 ---
 
-*需求草案、用例图与用例描述应随小组评审结果同步更新。*
-
-## 实验二与实验三设计材料
-
-- [实验二数据库设计报告](docs/reports/实验二/)
-- [实验三成员 B 顺序图报告](docs/reports/实验三/32406300083_许文博_实验三_成员B顺序图.docx)
-- [实验三成员 B 顺序图 SVG](design/sequence/)
-
-本次实验三个人主责为成员 B：顺序图以及正常、异常和边界交互；类图、协作图、状态图和活动图由组内其他成员负责，最终完整报告由小组合并。当前验证为基于需求与 SQL 的设计走查，仓库尚无可运行应用程序。
+*需求、数据库设计与个人报告应随小组评审结果同步更新；阶段成果以仓库实际文件为准。*
